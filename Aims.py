@@ -1,12 +1,15 @@
 from tkinter import *
 from PIL import ImageTk,Image
+from json import load
+
+Constants = load(open('utils/constants.json'))
 
 
 def startMenu_open():
     window = Toplevel()
     window.geometry('600x400+600+300')
     window['bg'] = ('white')
-    window.iconbitmap(r'AimsIcon.ico')
+    window.iconbitmap(Constants['AIM_ICON'])
     window.title('Aims - Aprenda inglês de modo simples')
 
 class App:
@@ -19,13 +22,13 @@ class App:
         self.parent.geometry('500x500+600+300')
         self.parent['bg'] ='white'
         self.parent.title('Aims- Aprenda inglês de modo simples')
-        self.parent.iconbitmap(r'AimsIcon.ico')
+        self.parent.iconbitmap(Constants['AIM_ICON'])
 
-        self.parent.brazilFlagImg = brazilFlagImg = ImageTk.PhotoImage(Image.open('BrazilFlag.png'))
+        self.parent.brazilFlagImg = brazilFlagImg = ImageTk.PhotoImage(Image.open(Constants['BR_FLAG']))
         self.parent.brFlagLabel = brFlagLabel = Label(image=brazilFlagImg)
         self.parent.brFlagLabel = brFlagLabel.place(relx=0.5, rely=0.4, anchor=CENTER)
 
-        self.parent.usFlagImg = usFlagImg = ImageTk.PhotoImage(Image.open('USFlagfixed.png'))
+        self.parent.usFlagImg = usFlagImg = ImageTk.PhotoImage(Image.open(Constants['US_FLAG_FIXED']))
         self.parent.usFlagLabel = usFlagLabel = Label(image=usFlagImg)
         self.parent.usFlagLabel = usFlagLabel.place(relx=0.5, rely=0.595, anchor=CENTER)
 
