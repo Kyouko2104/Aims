@@ -5,7 +5,7 @@ from json import load
 Constants = load(open('utils/constants.json'))
 
 
-def startMenu_open():
+def startMenu_open(self):
     window = Toplevel()
     window.geometry('600x400+600+300')
     window['bg'] = ('white')
