@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76d78da0-bcd0-4a9b-a574-4890c80057ad" name="Default Changelist" comment="" />
+    <list default="true" id="76d78da0-bcd0-4a9b-a574-4890c80057ad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aims.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aims.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aims.py___jb_tmp___" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aprendizado.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aprendizado.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Aims">
+  <component name="RunManager" selected="Python.Aprendizado">
     <configuration name="Aims" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Aims" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -127,8 +132,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Aims" />
         <item itemvalue="Python.Aprendizado" />
+        <item itemvalue="Python.Aims" />
         <item itemvalue="Python.StartScreen" />
         <item itemvalue="Python.NameSelection" />
       </list>
