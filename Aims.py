@@ -28,10 +28,10 @@ class App:
         self.load_hud()
         self.load_images()
 
-        self.parent.tabs = tabs = tkinter.ttk.Notebook()
-        self.parent.tab01 = tab01 = tkinter.ttk.Frame(tabs)
-        self.parent.tabs.add = tabs.add(tab01, text='Aims')
-        self.parent.tabs.pack = tabs.pack(expand=1, fill='both')
+        self.parent.tabs = tkinter.ttk.Notebook()
+        self.parent.tabs_frame = tkinter.ttk.Frame(self.parent.tabs)
+        self.parent.tabs.add(self.parent.tabs_frame, text='Aims')
+        self.parent.tabs.pack(expand=1, fill='both')
 
 
 
